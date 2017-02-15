@@ -1,3 +1,5 @@
+![App Screenshot](/pic/app.png)
+
 # MIDICtrl
 Simple MIDI Controller for Android
 
