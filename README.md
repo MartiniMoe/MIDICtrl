@@ -1,7 +1,8 @@
 ![App Screenshot](/pic/app.png)
 
-<a href="https://f-droid.org/repository/browse/?fdfilter=MIDICtrl&fdid=moe.martini.midictrl" target="_blank">
-	<img src="https://f-droid.org/badge/get-it-on.png" alt="Get it on F-Droid" height="80"/>
+<a href="https://f-droid.org/packages/moe.martini.midictrl/">
+	<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png"
+	alt="Get it on F-Droid" height="80"/>
 </a>
 
 # MIDICtrl
