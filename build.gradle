@@ -27,11 +27,10 @@ android {
 
     defaultConfig {
         applicationId "moe.martini.midictrl"
-        minSdkVersion 23
+        minSdkVersion 21
         targetSdkVersion 28
         versionCode 1
         versionName "0.1"
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
 
     buildTypes {
@@ -49,7 +48,7 @@ android {
 }
 
 dependencies {
-    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'androidx.appcompat:appcompat:1.1.0-alpha01'
 
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.3.2'
 }

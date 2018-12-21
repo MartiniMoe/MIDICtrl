@@ -7,7 +7,6 @@ import android.media.midi.MidiManager;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -17,6 +16,8 @@ import android.widget.Spinner;
 import android.widget.Toast;
 
 import java.io.IOException;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class ControlActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 
