@@ -5,84 +5,80 @@
     android:id="@+id/activity_control"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="moe.martini.midictrl.ControlActivity">
 
     <LinearLayout
-        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
         <LinearLayout
-            android:orientation="horizontal"
             android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:layout_height="wrap_content">
+            android:orientation="horizontal">
 
             <TextView
-                android:text="Device:"
+                android:id="@+id/textView"
                 android:layout_width="64dp"
                 android:layout_height="wrap_content"
-                android:id="@+id/textView" />
+                android:text="Device:" />
 
             <Spinner
+                android:id="@+id/spinnerDevices"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_alignParentTop="true"
-                android:layout_alignParentEnd="true"
-                android:id="@+id/spinnerDevices" />
+                android:layout_height="wrap_content" />
 
         </LinearLayout>
 
         <LinearLayout
-            android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:layout_below="@+id/spinnerDevices"
-            android:layout_centerHorizontal="true"
-            android:layout_weight="1">
+            android:layout_weight="1"
+            android:orientation="horizontal">
 
             <ImageButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/play"
                 android:id="@+id/buttonPlay"
-                android:layout_weight="1"
-                android:scaleType="fitCenter" />
-
-            <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/record"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/play" />
+
+            <ImageButton
                 android:id="@+id/buttonRecord"
-                android:layout_weight="1"
-                android:scaleType="fitCenter" />
-
-            <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/stop"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/record" />
+
+            <ImageButton
                 android:id="@+id/buttonStop"
-                android:layout_weight="1"
-                android:scaleType="fitCenter" />
-
-            <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/rewind"
-                android:id="@+id/buttonRewind"
                 android:layout_weight="1"
-                android:scaleType="fitCenter" />
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/stop" />
+
+            <ImageButton
+                android:id="@+id/buttonRewind"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/rewind" />
 
         </LinearLayout>
 
         <SeekBar
+            android:id="@+id/seekBar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/seekBar"
             android:layout_weight="1"
             android:max="127"
             android:progress="63" />

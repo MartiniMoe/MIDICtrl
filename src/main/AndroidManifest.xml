@@ -9,7 +9,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name=".ControlActivity" android:screenOrientation="landscape">
+        <activity
+            android:name=".ControlActivity"
+            android:screenOrientation="landscape">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -18,5 +20,7 @@
         </activity>
     </application>
 
-    <uses-feature android:name="android.software.midi" android:required="true"/>
+    <uses-feature
+        android:name="android.software.midi"
+        android:required="true" />
 </manifest>
