@@ -1,0 +1,10 @@
+Simple MIDI Controller for Android
+
+The app uses the new MIDI Api thats available on Android 6+.
+
+<b>Features:</b>
+<ul>
+  <li>Buttons for Play, Record, Stop and Rewind</li>
+  <li>Fader that sends its value on Channel #0 and Controller #0</li>
+</ul>
+Features have been tested with Ardour and Bitwig Studio.

@@ -1,4 +1,4 @@
-![App Screenshot](/pic/app.png)
+![App Screenshot](/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png)
 
 <a href="https://f-droid.org/packages/moe.martini.midictrl/">
 	<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png"
