@@ -1,0 +1,3 @@
+* Introduce fastlane metadata
+* Migrate translations from f-droid metadata
+* Add Screenshot
