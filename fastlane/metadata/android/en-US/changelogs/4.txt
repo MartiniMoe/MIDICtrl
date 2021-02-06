@@ -1,3 +1,4 @@
 * Introduce fastlane metadata
 * Migrate translations from f-droid metadata
 * Add Screenshot
+* Add backup metadata for seedvault backups
